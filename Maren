@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>ExCITe Center Partnerships</title>
+
+<style type="text/css">
+    ul { 
+    	padding-left: 1.5em;
+    } 
+    a:link {
+        color: #000000;
+        text-decoration: none;
+    }
+    a:visited {
+    	color: #000000;
+    	text-decoration: none;
+    }
+    a:hover {
+    	color: #000000;
+    	text-decoration: none;
+    }
+    a:active {
+    	color: #000000;
+    	text-decoration: none;
+    }
+    button {
+    	background: transparent;
+    	border: none;
+    }
+    h1 {
+    	font-family: "Futura", Arial, sans-serif;
+    	text-align: center;
+    }
+    p {
+    	font-family: "Futura", Arial, sans-serif;
+    	text-align: center;
+    }
+    li {
+    	font-family: "Futura", Arial, sans-serif;
+    }
+    body {
+    	background-color: #B8B8B8;
+    }   
+    #nghbr {
+    	position:absolute;
+		top: 500px;
+		left: 25px;
+		z-index: 1;
+	}
+	#ind {
+		position:absolute;
+		top:25px;
+		left:25px;
+		z-index: 1;
+	}
+	#arts {
+		position:absolute;
+		top:150px;
+		left:425px;
+		z-index: 1;
+	}
+	#edu {
+		position:absolute;
+		top:25px;
+		left:1050px;
+		z-index: 1;
+	}
+	#gov {
+		position:absolute;
+		top:500px;
+		left:1000px;
+		z-index: 1;
+	}
+	#rsrch {
+		position:absolute;
+		top:450px;
+		left:675px;
+		z-index: 1;
+	}
+	#nghbrInd {
+		position:absolute;
+		top:1000px;
+		left:100px;
+		z-index: 1;
+	}
+	#nghbrIndArtsEdu {
+		position:absolute;
+		top:1250px;
+		left:100px;
+		z-index: 1;
+	}
+	#nghbrArtsEduRsrch {
+		position:absolute;
+		top:1350px;
+		left:100px;
+		z-index: 1;
+	}
+	#nghbrEdu {
+		position:absolute;
+		top:1150px;
+		left:100px;
+		top:1450px;
+		left:100px;
+		z-index: 1;
+	}
+	#nghbrIndEdu {
+		position:absolute;
+		top:1550px;
+		left:100px;
+		z-index: 1;
+	}
+	#nghbrGov {
+		position:absolute;
+		top:1750px;
+		left:100px;
+		z-index: 1;
+	}
+	#indArts {
+		position:absolute;
+		top:1900px;
+		left:100px;
+		z-index: 1;
+	}
+	#indEdu {
+		position:absolute;
+		top:2050px;
+		left:100px;
+		z-index: 1;
+	}
+	#indArtsEduRsrch {
+		position:absolute;
+		top:2200px;
+		left:100px;
+		z-index: 1;
+	}
+	#indRsrch {
+		position:absolute;
+		top:2350px;
+		left:100px;
+		z-index: 1;
+	}
+	#artsEdu {
+		position:absolute;
+		top:2500px;
+		left:100px;
+		z-index: 1;
+	}
+	#artsEduRsrch {
+		position:absolute;
+		top:2650px;
+		left:100px;
+		z-index: 1;
+	}
+	#artsRsrch {
+		position:absolute;
+		top:2800px;
+		left:100px;
+		z-index: 1;
+	}
+	#eduRsrch {
+		position:absolute;
+		top:2950px;
+		left:100px;
+		z-index: 1;
+	}
+</style>
+
+</head>
+
+<body>
+	<span style="display: block; margin: 0px auto; text-align: center;"> 
+		<img src="http://i62.tinypic.com/2ppd20l.png" alt="The ExCITE Center" height="128.6007" width="350">
+	</span>
+
+<svg width="10000" height="5000">
+  <circle cx="50" cy="50" r="20" stroke="red" stroke-width="4" fill="red" />
+  <circle cx="50" cy="200" r="20" stroke="orange" stroke-width="4" fill="orange" />
+  <circle cx="50" cy="350" r="20" stroke="yellow" stroke-width="4" fill="yellow" />
+  <circle cx="50" cy="500" r="20" stroke="green" stroke-width="4" fill="green" />
+  <circle cx="50" cy="650" r="20" stroke="blue" stroke-width="4" fill="blue" />
+  <circle cx="50" cy="800" r="20" stroke="purple" stroke-width="4" fill="purple" />
+</svg>
+
+
+<!--neighborhood-->
+<button type = "button" id = "nghbr">
+	<ul style="list-style-type:none">
+		<li> NEIGHBORHOOD </li>
+		<li> <a href="http://www.mcaunitingmantua.com/"> Mantua Civic Association </li>
+		<li> <a href="http://mcic1.org/"> Mantua Community Improvement Committee </li>
+		<li> <a href="http://www.pec-cares.org/"> People's Emergency Center </li>
+		<li> <a href=""> We Are Mantua </li>
+	</ul>
+</button>
+
+<!--industry-->
+<button type = "button" id = "ind">
+	<ul style="list-style-type:none">
+		<li> INDUSTRY </li>
+		<li> <a href="http://technical.ly/philly/"> Technical.ly Philly </li>
+		<li> <a href="http://www.philly.com/"> Interstate General Media </li>
+		<li> <a href="http://www.microsoft.com/about/en/us/default.aspx"> Microsoft </li>
+		<li> <a href="http://www.ibm.com/us/en/"> IBM </li>
+		<li> <a href="http://benfranklin.org/"> Ben Franklin Technology Partners </li>
+		<li> <a href="http://www.dvirc.org/"> Delaware Valley Industrial Resource Center </li>
+		<li> <a href="http://drexel.edu/excite/initiatives/ic3401/"> IC@3401 </li>
+	</ul>
+</button>
+
+<!--arts and culture-->
+<button type = "button" id = "arts">
+	<ul style="list-style-type:none">
+		<li> ARTS AND CULTURE </li>
+		<li> <a href="http://www.philamuseum.org/"> Philadelphia Museum of Art </li>
+		<li> <a href="http://www.operaphila.org/"> Opera Philadelphia </li>
+		<li> <a href="http://www.arts.pa.gov/Pages/default.aspx#.VInuIzHF-So"> Pennsylvania Coucil on the Arts </li>
+		<li> <a href="http://www.phillygeekawards.com/"> Philly Geek Awards </li>
+		<li> <a href="https://www.philorch.org/#/"> The Philadelphia Orchestra </li>
+		<li> <a href="http://www.selectgreaterphiladelphia.com/"> Select Greater Philadelphia </li>
+		<li> <a href="http://playonphilly.org/"> Play on Philly </li>
+	</ul>
+</button>
+
+<!--education-->
+<button type = "button" id = "edu">
+	<ul style="list-style-type:none">
+		<li> EDUCATION </li>
+		<li> <a href="http://webgui.phila.k12.pa.us/schools/p/powel"> Samuel Powel School </li>
+		<li> <a href="http://www.philadelphiazoo.org/"> Philadelphia Zoo </li>
+		<li> <a href="http://www.philau.edu/"> Philadelphia University </li>
+		<li> <a href="http://www.lisc.org/"> Local Initiatives Support Corporation </li>
+		<li> <a href="http://www.boyslatin.org/pages/blmain"> Boys' Latin of Philadelphia Charter School </li>
+		<li> <a href="http://www.ccp.edu/"> Community College of Philadelphia </li>
+		<li> <a href=""> ExCITe Learning Community </li>
+		<li> <a href=""> Mack Miles Recreation Center </li>
+		<li> <a href=""> McMichael School </li>
+		<li> <a href=""> Mantua In Action </li>
+		<li> <a href=""> Moore College of Art and Design </li>
+		<li> <a href=""> Philadelphia Parks and Recreation </li>
+		<li> <a href=""> Philadelphia School District </li>
+		<li> <a href=""> Philadelphia Science Festival </li>
+		<li> <a href=""> Springside Chestnut Hill Academy </li>
+		<li> <a href=""> Settlement Music Academy </li>
+	</ul>
+</button>
+
+<!--government-->
+<button type = "button" id = "gov">
+	<ul style="list-style-type:none">
+		<li> GOVERNMENT </li>
+		<li> <a href=""> Philadelphia Industrial Development Corporation </li>
+		<li> <a href=""> The Mayor's Commission on Literacy </li>
+		<li> <a href=""> The Office of Innovation and Technology </li>
+	</ul>
+</button>
+
+<!--research-->
+<button type = "button" id = "rsrch">
+	<ul style="list-style-type:none">
+		<li> RESEARCH </li>
+		<li> <a href=""> Temple University </li>
+		<li> <a href=""> Swarthmore College </li>
+		<li> <a href=""> Queen Mary Univerity of London </li>
+		<li> <a href=""> Early Childhood Education Initiative </li>
+		<li> <a href=""> Bryn Mawr College </li>
+		<li> <a href=""> KAIST Hubo Lab </li>
+		<li> <a href=""> The National Science Foundation</li>
+		<li> <a href=""> The College of New Jersey </li>
+	</ul>
+</button>
+
+<!--neighborhood and industry-->
+<button type = "button" id = "nghbrInd">
+	<ul style="list-style-type:none">
+		<li> NEIGHBORHOOD AND INDUSTRY </li>
+		<li> <a href=""> Media Mobilizing Projects </li>
+	</ul>
+</button>
+
+<!--neighborhood, industry, arts and culture, and education-->
+<button type = "button" id = "nghbrIndArtsEdu">
+	<ul style="list-style-type:none">
+		<li> NEIGHBORHOOD, INDUSTRY, ARTS, AND EDU </li>
+		<li> <a href=""> Knight Foundation </li>
+	</ul>
+</button>
+
+<!--neighborhood, arts and culture, education, and research-->
+<button type = "button" id = "nghbrArtsEduRsrch">
+	<ul style="list-style-type:none">
+		<li> NEIGHBORHOOD, ARTS, EDU, RESEARCH </li>
+		<li> <a href=""> The Science Center </li>
+	</ul>
+</button>
+
+<!--neighborhood and education-->
+<button type = "button" id = "nghbrEdu">
+	<ul style="list-style-type:none">
+		<li> NEIGHBORHOOD AND EDU </li>
+		<li> <a href=""> The Dornsife Center </li>
+		<li> <a href=""> James Wright Center </li>
+		<li> <a href=""> KEYSPOTS </li>
+		<li> <a href=""> Philadelphia Academies Inc.</li>
+	</ul>
+</button>
+
+<!--neighborhood, industry, and education-->
+<button type = "button" id = "nghbrIndEdu">
+	<ul style="list-style-type:none">
+		<li> NEIGHBORHOOD, INDUSTRY, AND EDU </li>
+		<li> <a href=""> Digital On-Ramps </li>
+	</ul>
+</button>
+
+<!--neighborhood and government-->
+<button type = "button" id = "nghbrGov">
+	<ul style="list-style-type:none">
+		<li> NEIGHBORHOOD </li>
+		<li> <a href=""> Mayor's Office of New Urban Mechanics </li>
+		<li> <a href=""> Philadelphia Housing Authority </li>
+	</ul>
+</button>
+
+<!--industry and arts and culture-->
+<button type = "button" id = "indArts">
+	<ul style="list-style-type:none">
+		<li> INDUSTRY AND ARTS </li>
+		<li> <a href=""> Shima Seiki Haute Technology Laboratory </li>
+	</ul>
+</button>
+
+<!--industry and education-->
+<button type = "button" id = "indEdu">
+	<ul style="list-style-type:none">
+		<li> INDUSTRY AND EDUCATION </li>
+		<li> <a href=""> The Hacktory </li>
+		<li> <a href=""> Public Workshop </li>
+		<li> <a href=""> Bread Board </li>
+		<li> <a href=""> Department of Making + Doing </li>
+	</ul>
+</button>
+
+<!--industry, arts and culture, education, and research-->
+<button type = "button" id = "indArtsEduRsrch">
+	<ul style="list-style-type:none">
+		<li> INDUSTRY, ARTS, EDU, AND RESEARCH </li>
+		<li> <a href=""> Philly Tech Week </li>
+	</ul>
+</button>
+
+<!--industry and research-->
+<button type = "button" id = "indRsrch">
+	<ul style="list-style-type:none">
+		<li> INDUSTRY AND RESEARCH </li>
+		<li> <a href=""> CityAge </li>
+		<li> <a href=""> Next City </li>
+	</ul>
+</button>
+
+<!--arts and culture and education-->
+<button type = "button" id = "artsEdu">
+	<ul style="list-style-type:none">
+		<li> ARTS AND EDUCATION </li>
+		<li> <a href=""> Philadelphia Arts in Education Partnership </li>
+	</ul>
+</button>
+
+<!--arts and cultre, education, and research-->
+<button type = "button" id = "artsEduRsrch">
+	<ul style="list-style-type:none">
+		<li> ARTS, EDU, AND RESEARCH </li>
+		<li> <a href=""> The Franklin Institute </li>
+	</ul>
+</button>
+
+<!--arts and culture and research-->
+<button type = "button" id = "artsRsrch">
+	<ul style="list-style-type:none">
+		<li> ARTS AND RESEARCH </li>
+		<li> <a href=""> Cunningham Plano </li>
+		<li> <a href=""> University of the Arts </li>
+	</ul>
+</button>
+
+<!--education and research-->
+<button type = "button" id = "eduRsrch">
+	<ul style="list-style-type:none">
+		<li> EDU AND RESEARCH </li>
+		<li> <a href=""> The Academy of Natural Sciences </li>
+		<li> <a href=""> Drexel School of Education </li>
+	</ul>
+</button>
+</body>
+
+</html>
